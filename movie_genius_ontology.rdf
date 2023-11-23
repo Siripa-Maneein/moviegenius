@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#"
-     xml:base="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius"
-     xmlns:mg="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#"
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#"
+     xml:base="http://www.semanticweb.org/ontologies/2023/9/MovieGenius"
+     xmlns:mg="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -9,9 +9,8 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:swrl="http://www.w3.org/2003/11/swrl#"
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
-     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
-     xmlns:untitled-ontology-50="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/untitled-ontology-50#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius"/>
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius"/>
     
 
 
@@ -43,152 +42,152 @@
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasCast -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasCast -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasCast">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasCast">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Movie"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Cast"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Cast"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasDirector -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasDirector -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasDirector">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasDirector">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Movie"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Director"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Director"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasFavoriteCast -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasFavoriteCast -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasFavoriteCast">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasFavoriteCast">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#MovieGeniusUser"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Cast"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#MovieGeniusUser"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Cast"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasFavoriteDirector -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasFavoriteDirector -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasFavoriteDirector">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasFavoriteDirector">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#MovieGeniusUser"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Director"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#MovieGeniusUser"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Director"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasFavoriteGenre -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasFavoriteGenre -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasFavoriteGenre">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasFavoriteGenre">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#MovieGeniusUser"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#MovieGenre"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#MovieGeniusUser"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#MovieGenre"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasFavoriteMovie -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasFavoriteMovie -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasFavoriteMovie">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasFavoriteMovie">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#MovieGeniusUser"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Movie"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#MovieGeniusUser"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Movie"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasGenre -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasGenre -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasGenre">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasGenre">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Movie"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#MovieGenre"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#MovieGenre"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasLiveActionCast -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasLiveActionCast -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasLiveActionCast">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasCast"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#LiveAction"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#LiveActionCast"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasLiveActionCast">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasCast"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#LiveAction"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#LiveActionCast"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasOriginalCountry -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasOriginalCountry -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasOriginalCountry">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasOriginalCountry">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Movie"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Country"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Country"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasOriginalLanguage -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasOriginalLanguage -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasOriginalLanguage">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasOriginalLanguage">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Movie"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Language"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Language"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasRate -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasRate -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasRate">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Movie"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Rate"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasRate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Rate"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasSoundtrack -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasSoundtrack -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasSoundtrack">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasSoundtrack">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Movie"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#MovieSoundtrack"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#MovieSoundtrack"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasVoiceCast -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasVoiceCast -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasVoiceCast">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasCast"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Animation"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#VoiceCast"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasVoiceCast">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasCast"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Animation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#VoiceCast"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#isIn -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#isIn -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#isIn">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#isIn">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#MovieGeniusUser"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Country"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#MovieGeniusUser"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Country"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#isProducedBy -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#isProducedBy -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#isProducedBy">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#isProducedBy">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Movie"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#ProductionCompany"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Movie"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#ProductionCompany"/>
     </owl:ObjectProperty>
     
 
@@ -204,65 +203,65 @@
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#allowAgeOlderThan -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#allowAgeOlderThan -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#allowAgeOlderThan">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Rate"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#allowAgeOlderThan">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Rate"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasBudget -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasBudget -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasBudget">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasBudget">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Movie"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Movie"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasIMDbRating -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasIMDbRating -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasIMDbRating">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasIMDbRating">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Movie"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Movie"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasReleasedYear -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasReleasedYear -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasReleasedYear">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasReleasedYear">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Movie"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Movie"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasRevenue -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasRevenue -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasRevenue">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasRevenue">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Movie"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Movie"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasRunningTime -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasRunningTime -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasRunningTime">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasRunningTime">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Movie"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Movie"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
     
@@ -279,60 +278,60 @@
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Animation -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Animation -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Animation">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Movie"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Animation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Movie"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasVoiceCast"/>
-                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#VoiceCast"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasVoiceCast"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#VoiceCast"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#LiveAction"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#LiveAction"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Asian -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Asian -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Asian">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Inferred"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Asian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Inferred"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Blockbuster -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Blockbuster -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Blockbuster">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Inferred"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Blockbuster">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Inferred"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Cast -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Cast -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Cast">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Person"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Cast">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Person"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Children -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Children -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Children">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Inferred"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Children">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Inferred"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Classic -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Classic -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Classic">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Inferred"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Classic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Inferred"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasReleasedYear"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasReleasedYear"/>
                 <owl:someValuesFrom>
                     <rdfs:Datatype>
                         <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
@@ -349,27 +348,27 @@
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Country -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Country -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Country"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Country"/>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Director -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Director -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Director">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Person"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Director">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Person"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#HighIMDbRating -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#HighIMDbRating -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#HighIMDbRating">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Inferred"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#HighIMDbRating">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Inferred"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasIMDbRating"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasIMDbRating"/>
                 <owl:someValuesFrom>
                     <rdfs:Datatype>
                         <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
@@ -386,61 +385,61 @@
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Hollywood -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Hollywood -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Hollywood">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Inferred"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Hollywood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Inferred"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasOriginalCountry"/>
-                <owl:hasValue rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#USA"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasOriginalCountry"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#USA"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Inferred -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Inferred -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Inferred"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Inferred"/>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Language -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Language -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Language"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Language"/>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#LiveAction -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#LiveAction -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#LiveAction">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Movie"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#LiveAction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Movie"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasLiveActionCast"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#LiveActionCast"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasLiveActionCast"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#LiveActionCast"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#LiveActionCast -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#LiveActionCast -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#LiveActionCast">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Cast"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#LiveActionCast">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Cast"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#LowIMDbRating -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#LowIMDbRating -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#LowIMDbRating">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Inferred"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#LowIMDbRating">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Inferred"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasIMDbRating"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasIMDbRating"/>
                 <owl:someValuesFrom>
                     <rdfs:Datatype>
                         <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
@@ -457,13 +456,13 @@
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#MediumIMDbRating -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#MediumIMDbRating -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#MediumIMDbRating">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Inferred"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#MediumIMDbRating">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Inferred"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasIMDbRating"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasIMDbRating"/>
                 <owl:someValuesFrom>
                     <rdfs:Datatype>
                         <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
@@ -483,54 +482,54 @@
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Movie -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Movie -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Movie"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Movie"/>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#MovieGeniusUser -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#MovieGeniusUser -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#MovieGeniusUser">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Person"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#MovieGeniusUser">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Person"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#MovieGenre -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#MovieGenre -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#MovieGenre"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#MovieGenre"/>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#MovieSoundtrack -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#MovieSoundtrack -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#MovieSoundtrack"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#MovieSoundtrack"/>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Person -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Person -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Person"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Person"/>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#ProductionCompany -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#ProductionCompany -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#ProductionCompany"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#ProductionCompany"/>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Rate -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Rate -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Rate"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Rate"/>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#VoiceCast -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#VoiceCast -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#VoiceCast">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Cast"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#VoiceCast">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Cast"/>
     </owl:Class>
     
 
@@ -546,220 +545,220 @@
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#A -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#A -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#A">
-        <rdf:type rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#MovieGeniusUser"/>
-        <hasFavoriteDirector rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Adisorn_Tresirikasem"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#A">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#MovieGeniusUser"/>
+        <hasFavoriteDirector rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Adisorn_Tresirikasem"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Adisorn_Tresirikasem -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Adisorn_Tresirikasem -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Adisorn_Tresirikasem">
-        <rdf:type rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Director"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Adisorn_Tresirikasem">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Director"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Avatar_2009 -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Avatar_2009 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Avatar_2009">
-        <rdf:type rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#LiveAction"/>
-        <hasRate rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#PG-13"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Avatar_2009">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#LiveAction"/>
+        <hasRate rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#PG-13"/>
         <hasBudget rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">237000000</hasBudget>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#B -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#B -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#B">
-        <rdf:type rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#MovieGeniusUser"/>
-        <isIn rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Canada"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#B">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#MovieGeniusUser"/>
+        <isIn rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Canada"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Barbie_2023 -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Barbie_2023 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Barbie_2023">
-        <rdf:type rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#LiveAction"/>
-        <hasRate rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#PG-13"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Barbie_2023">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#LiveAction"/>
+        <hasRate rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#PG-13"/>
         <hasBudget rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">145000000</hasBudget>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Canada -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Canada -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Canada">
-        <rdf:type rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Country"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Canada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Country"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Chris_Williams -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Chris_Williams -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Chris_Williams">
-        <rdf:type rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Director"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Chris_Williams">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Director"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Comedy -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Comedy -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Comedy">
-        <rdf:type rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#MovieGenre"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Comedy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#MovieGenre"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#English -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#English -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#English">
-        <rdf:type rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Language"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#English">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Language"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#G -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#G -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#G">
-        <rdf:type rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Rate"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#G">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Rate"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#GDH_559 -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#GDH_559 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#GDH_559">
-        <rdf:type rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#ProductionCompany"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#GDH_559">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#ProductionCompany"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#If_You_Love_Somebody -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#If_You_Love_Somebody -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#If_You_Love_Somebody">
-        <rdf:type rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#MovieSoundtrack"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#If_You_Love_Somebody">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#MovieSoundtrack"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Karl_Urban -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Karl_Urban -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Karl_Urban">
-        <rdf:type rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#VoiceCast"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Karl_Urban">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#VoiceCast"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#NC-17 -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#NC-17 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#NC-17">
-        <rdf:type rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Rate"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#NC-17">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Rate"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Netflix -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Netflix -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Netflix">
-        <rdf:type rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#ProductionCompany"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Netflix">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#ProductionCompany"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#One_More_Try -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#One_More_Try -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#One_More_Try">
-        <rdf:type rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#MovieSoundtrack"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#One_More_Try">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#MovieSoundtrack"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#PG -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#PG -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#PG">
-        <rdf:type rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Rate"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#PG">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Rate"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#PG-13 -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#PG-13 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#PG-13">
-        <rdf:type rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Rate"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#PG-13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Rate"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#R -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#R -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#R">
-        <rdf:type rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Rate"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#R">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Rate"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Ranee_Campen -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Ranee_Campen -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Ranee_Campen">
-        <rdf:type rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#LiveActionCast"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Ranee_Campen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#LiveActionCast"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Romance -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Romance -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Romance">
-        <rdf:type rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#MovieGenre"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Romance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#MovieGenre"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Thai -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Thai -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Thai">
-        <rdf:type rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Language"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Thai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Language"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Thailand -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Thailand -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Thailand">
-        <rdf:type rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Country"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Thailand">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Country"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#The_Emoji_Movie -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#The_Emoji_Movie -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#The_Emoji_Movie">
-        <rdf:type rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Animation"/>
-        <hasGenre rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Comedy"/>
-        <hasRate rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#PG"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#The_Emoji_Movie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Animation"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Comedy"/>
+        <hasRate rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#PG"/>
         <hasIMDbRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.4</hasIMDbRating>
         <hasReleasedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</hasReleasedYear>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#The_Sea_Beast -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#The_Sea_Beast -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#The_Sea_Beast">
-        <rdf:type rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Animation"/>
-        <hasDirector rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Chris_Williams"/>
-        <hasGenre rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Comedy"/>
-        <hasOriginalCountry rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Canada"/>
-        <hasOriginalLanguage rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#English"/>
-        <hasRate rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#PG"/>
-        <hasSoundtrack rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#One_More_Try"/>
-        <hasVoiceCast rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Karl_Urban"/>
-        <isProducedBy rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Netflix"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#The_Sea_Beast">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Animation"/>
+        <hasDirector rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Chris_Williams"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Comedy"/>
+        <hasOriginalCountry rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Canada"/>
+        <hasOriginalLanguage rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#English"/>
+        <hasRate rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#PG"/>
+        <hasSoundtrack rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#One_More_Try"/>
+        <hasVoiceCast rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Karl_Urban"/>
+        <isProducedBy rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Netflix"/>
         <hasIMDbRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</hasIMDbRating>
         <hasReleasedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</hasReleasedYear>
         <hasRunningTime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">115</hasRunningTime>
@@ -767,43 +766,43 @@
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#The_Wizard_of_Oz_1925 -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#The_Wizard_of_Oz_1925 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#The_Wizard_of_Oz_1925">
-        <rdf:type rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#LiveAction"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#The_Wizard_of_Oz_1925">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#LiveAction"/>
         <hasReleasedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1925</hasReleasedYear>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#USA -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#USA -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#USA">
-        <rdf:type rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Country"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#USA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Country"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Gnomeo_&amp;_Juliet -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Gnomeo_&amp;_Juliet -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Gnomeo_&amp;_Juliet">
-        <rdf:type rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Animation"/>
-        <hasRate rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#PG"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Gnomeo_&amp;_Juliet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Animation"/>
+        <hasRate rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#PG"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Love_Destiny:_The_Movie -->
+    <!-- http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Love_Destiny:_The_Movie -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Love_Destiny:_The_Movie">
-        <rdf:type rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#LiveAction"/>
-        <hasDirector rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Adisorn_Tresirikasem"/>
-        <hasGenre rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Comedy"/>
-        <hasGenre rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Romance"/>
-        <hasLiveActionCast rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Ranee_Campen"/>
-        <hasOriginalCountry rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Thailand"/>
-        <hasOriginalLanguage rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Thai"/>
-        <hasSoundtrack rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#If_You_Love_Somebody"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Love_Destiny:_The_Movie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#LiveAction"/>
+        <hasDirector rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Adisorn_Tresirikasem"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Comedy"/>
+        <hasGenre rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Romance"/>
+        <hasLiveActionCast rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Ranee_Campen"/>
+        <hasOriginalCountry rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Thailand"/>
+        <hasOriginalLanguage rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Thai"/>
+        <hasSoundtrack rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#If_You_Love_Somebody"/>
         <hasIMDbRating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.2</hasIMDbRating>
         <hasReleasedYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</hasReleasedYear>
         <hasRevenue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1109803</hasRevenue>
@@ -823,14 +822,14 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Country"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Language"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Movie"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#MovieGenre"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#MovieSoundtrack"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Person"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#ProductionCompany"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Rate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Country"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Language"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Movie"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#MovieGenre"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#MovieSoundtrack"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Person"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#ProductionCompany"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Rate"/>
         </owl:members>
     </rdf:Description>
     
@@ -853,10 +852,10 @@
     <rdf:Description rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/y">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/p">
+    <rdf:Description rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/r">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/r">
+    <rdf:Description rdf:about="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/p">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description>
@@ -870,7 +869,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Movie"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Movie"/>
                         <swrl:argument1 rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/m"/>
                     </rdf:Description>
                 </rdf:first>
@@ -880,9 +879,9 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasRate"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasRate"/>
                                 <swrl:argument1 rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/m"/>
-                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#G"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#G"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -896,7 +895,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Children"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Children"/>
                         <swrl:argument1 rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/m"/>
                     </rdf:Description>
                 </rdf:first>
@@ -915,7 +914,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Movie"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Movie"/>
                         <swrl:argument1 rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/m"/>
                     </rdf:Description>
                 </rdf:first>
@@ -925,9 +924,9 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasRate"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasRate"/>
                                 <swrl:argument1 rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/m"/>
-                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#PG"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#PG"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -941,7 +940,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Children"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Children"/>
                         <swrl:argument1 rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/m"/>
                     </rdf:Description>
                 </rdf:first>
@@ -960,7 +959,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Movie"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Movie"/>
                         <swrl:argument1 rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/m"/>
                     </rdf:Description>
                 </rdf:first>
@@ -970,9 +969,9 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasRate"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasRate"/>
                                 <swrl:argument1 rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/m"/>
-                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#PG-13"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#PG-13"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -986,7 +985,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Children"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Children"/>
                         <swrl:argument1 rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/m"/>
                     </rdf:Description>
                 </rdf:first>
@@ -1005,7 +1004,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Movie"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Movie"/>
                         <swrl:argument1 rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/m"/>
                     </rdf:Description>
                 </rdf:first>
@@ -1014,10 +1013,21 @@
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                         <rdf:first>
                             <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasBudget"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/m"/>
-                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/b"/>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual"/>
+                                <swrl:arguments>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/b"/>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100000000</rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </swrl:arguments>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest>
@@ -1025,21 +1035,10 @@
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                                 <rdf:first>
                                     <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual"/>
-                                        <swrl:arguments>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                <rdf:first rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/b"/>
-                                                <rdf:rest>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100000000</rdf:first>
-                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                    </rdf:Description>
-                                                </rdf:rest>
-                                            </rdf:Description>
-                                        </swrl:arguments>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasBudget"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/m"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/b"/>
                                     </rdf:Description>
                                 </rdf:first>
                                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -1055,7 +1054,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Blockbuster"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Blockbuster"/>
                         <swrl:argument1 rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/m"/>
                     </rdf:Description>
                 </rdf:first>
@@ -1074,7 +1073,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Movie"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Movie"/>
                         <swrl:argument1 rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/m"/>
                     </rdf:Description>
                 </rdf:first>
@@ -1083,10 +1082,21 @@
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                         <rdf:first>
                             <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasReleasedYear"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/m"/>
-                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/y"/>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
+                                <swrl:arguments>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/y"/>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1969</rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </swrl:arguments>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest>
@@ -1094,21 +1104,10 @@
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                                 <rdf:first>
                                     <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
-                                        <swrl:arguments>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                <rdf:first rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/y"/>
-                                                <rdf:rest>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1969</rdf:first>
-                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                    </rdf:Description>
-                                                </rdf:rest>
-                                            </rdf:Description>
-                                        </swrl:arguments>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasReleasedYear"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/m"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/y"/>
                                     </rdf:Description>
                                 </rdf:first>
                                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -1124,7 +1123,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Classic"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Classic"/>
                         <swrl:argument1 rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/m"/>
                     </rdf:Description>
                 </rdf:first>
@@ -1142,9 +1141,21 @@
                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                 <rdf:first>
                     <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#Movie"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/p"/>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
+                        <swrl:arguments>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/r"/>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </swrl:arguments>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -1152,10 +1163,9 @@
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                         <rdf:first>
                             <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#hasIMDbRating"/>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#Movie"/>
                                 <swrl:argument1 rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/p"/>
-                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/r"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest>
@@ -1163,21 +1173,10 @@
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                                 <rdf:first>
                                     <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
-                                        <swrl:arguments>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                <rdf:first rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/r"/>
-                                                <rdf:rest>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</rdf:first>
-                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                    </rdf:Description>
-                                                </rdf:rest>
-                                            </rdf:Description>
-                                        </swrl:arguments>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#hasIMDbRating"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/p"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/r"/>
                                     </rdf:Description>
                                 </rdf:first>
                                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -1193,7 +1192,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius#LowIMDbRating"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/ontologies/2023/9/MovieGenius#LowIMDbRating"/>
                         <swrl:argument1 rdf:resource="http://www.semanticweb.org/siripamaneein/ontologies/2023/9/MovieGenius/p"/>
                     </rdf:Description>
                 </rdf:first>
